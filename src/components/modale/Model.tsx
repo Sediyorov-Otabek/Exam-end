@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Button, Modal } from "antd";
 import { ChatIcon } from "../icon";
+//@ts-ignore
 import { useGetPostCommentsQuery } from "../../redux/api/post";
 
 const Model: React.FC<any> = ({
